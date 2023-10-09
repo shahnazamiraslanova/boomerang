@@ -1,0 +1,39 @@
+
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-shot-forest-with-tall-green-trees_181624-20615.jpg?w=2000);
+    height: 100VH;
+    
+}
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0;
+    
+    text-align: center;
+}
+.article h1{
+    font-size: 80px;
+}
+main:first-child{
+    background-color: #788487;
+}
+.card{
+    text-align: center;
+    border: none;
+    width: 20%;
+    
+}
+.card i{
+    font-size: 50px;
+
+}
+#main_first_img img{
+   max-width: 100%;
+}
+#animated_cards div{
+    width: 33.333%;
+}
